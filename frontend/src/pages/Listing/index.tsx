@@ -1,5 +1,7 @@
 import MovieCard from "components/MovieCard";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import MovieScore from "components/MovieScore";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import MovieStars from "components/MovieStars";
 import Pagination from "components/Pagination";
 
