@@ -38,7 +38,6 @@ function Listing() {
         setPageNumber(newPageNumber);
     }
 
-
     return (
         <>
             <Pagination page={page} onChange={handlePageChange}/>
