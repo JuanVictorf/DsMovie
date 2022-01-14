@@ -1,11 +1,20 @@
+import axios from "axios";
 import MovieCard from "components/MovieCard";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import MovieScore from "components/MovieScore";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import MovieStars from "components/MovieStars";
 import Pagination from "components/Pagination";
+import { BASE_URL } from "utils/requests";
 
 function Listing() {
+
+    axios.get(`${BASE_URL}/movies?size=12&page=0`)
+        .then(response => {
+            console.log(response.data);
+        });
+
+    
 
     return (
         <>
