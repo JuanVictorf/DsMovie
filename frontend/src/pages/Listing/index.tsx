@@ -34,7 +34,6 @@ function Listing() {
     }, [pageNumber]);
 
 
-
     const handlePageChange = (newPageNumber : number) => {
         setPageNumber(newPageNumber);
     }
